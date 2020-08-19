@@ -1,6 +1,5 @@
 # tinify
-Tinify is a lightweight URL shortener.
-
+Tinify is a lightweight URL shortener built almost entirely with python. It utilizes Flask (micro web framework) for back-end and Bootstrap for front-end.
 # Screenshots
-![](tinify_screenie.png)
-![](tinify_screenie2.png)
+![](screenshot1.png)
+
