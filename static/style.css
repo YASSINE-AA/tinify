@@ -1,0 +1,8 @@
+html body {
+    font-family: 'Roboto', sans-serif;
+    background: #1F1B24;
+}
+
+.navbar-brand {
+    color: white;
+}
