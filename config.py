@@ -1,3 +1,3 @@
 PORT = 8000
-HOST = "0.0.0.0"
+HOST = "tinify.azurewebsites.net"
 DEBUG = False
