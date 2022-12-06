@@ -1,3 +1,3 @@
 PORT = 80
 HOST = "0.0.0.0"
-DEBUG = True
+DEBUG = False
