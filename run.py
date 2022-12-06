@@ -14,4 +14,4 @@ conn.close()
 app = application
 
 if __name__ == "__main__":
-    app.run(host=config.HOST, debug=config.DEBUG, port=config.PORT)
+    app.run(host="0.0.0.0", debug=config.DEBUG, port=config.PORT)
