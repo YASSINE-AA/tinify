@@ -26,7 +26,7 @@ def get_url():
 
     if config.PORT:
         if "." in processed_url:
-            finished_url = f'{config.HOST}:{config.PORT}' + \
+            finished_url = f'{config.HOST}' + \
                 '/' + str(shortening_algorithm.start(processed_url)[0])
         else:
             finished_url = "the link you've entered is invalid."
