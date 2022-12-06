@@ -11,6 +11,4 @@ if not cur.fetchone()[0]==1 : {
 }
 cur.close()
 conn.close()
-
-if __name__ == "__main__":
-    application.run(host=config.HOST, debug=config.DEBUG, port=config.PORT)
+app = application
