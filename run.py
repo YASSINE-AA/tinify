@@ -13,4 +13,4 @@ cur.close()
 conn.close()
 
 if __name__ == "__main__":
-    application.run(host=config.HOST, debug=config.DEBUG)
+    application.run(host=config.HOST, debug=config.DEBUG, port=config.PORT)
